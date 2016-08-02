@@ -11,12 +11,13 @@ return [
 	'db' => [
 		'driver' => 'mysql',
 		'host' => '127.0.0.1',
-		'name' => 'XAMPP - TCP/IP',
+		'name' => 'site',
+		'database' => 'site',
 		'username' => 'root',
-		'password' => 'root',
+		'password' => '',
 		'charset' => 'utf8',
 		'collation' => 'utf8_unicode_ci',
-		'prefix' => ''
+		'prefix' => '',
 	],
 	'auth' => [
 		'session' => 'user_id',
@@ -26,8 +27,8 @@ return [
 		'smtp_auth' => true,
 		'smtp_secure' => 'tls',
 		'host' => 'smtp.gmail.com',
-		'username' => 'tabby@codecourse.com',
-		'password' => 'ilovec4ts',
+		'username' => 'stevektseng7@gmail.com',
+		'password' => 'sKtMeCH1117',
 		'port' => 587,
 		'html' => true
 	],

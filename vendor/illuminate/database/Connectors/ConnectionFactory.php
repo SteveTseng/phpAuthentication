@@ -212,6 +212,7 @@ class ConnectionFactory
             return $this->container->make($key, [$connection, $database, $prefix, $config]);
         }
 
+
         switch ($driver) {
             case 'mysql':
                 return new MySqlConnection($connection, $database, $prefix, $config);
