@@ -53,6 +53,7 @@ class Hash
 		// 	        }
 		// 	    }
 		// 	}
-		return hash_equals($known, $user);
+		phpinfo();
+		return \hash_equals($known, $user);
 	}
 }
