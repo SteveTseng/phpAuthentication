@@ -31,29 +31,6 @@ class Hash
 
 	public function hashCheck($know, $user)
 	{
-
-		//this is needed for older version, i have the older version somehow..
-		// if(!function_exists('hash_equals'))
-		// 	{
-		// 	    function hash_equals($know, $user)
-		// 	    {
-		// 	        if(strlen($know) != strlen($user))
-		// 	        {
-		// 	            return false;
-		// 	        }
-		// 	        else
-		// 	        {
-		// 	            $res = $know ^ $user;
-		// 	            $ret = 0;
-		// 	            for($i = strlen($res) - 1; $i >= 0; $i--)
-		// 	            {
-		// 	                $ret |= ord($res[$i]);
-		// 	            }
-		// 	            return !$ret;
-		// 	        }
-		// 	    }
-		// 	}
-		phpinfo();
-		return \hash_equals($known, $user);
+		return hash_equals($know, $user);
 	}
 }

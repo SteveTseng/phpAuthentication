@@ -17,5 +17,7 @@
 		<div>
 			<input type="submit" value="Login">
 		</div>
+
+		<input type="hidden" name="{{ csrf_key }}" value="{{ csrf_token }}">
 	</form>
 {% endblock %}

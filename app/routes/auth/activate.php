@@ -1,6 +1,6 @@
 <?php
 
-$app->get('/activate', function() use($app) {
+$app->get('/activate', $guest(), function() use($app) {
 
 	$request = $app->request;
 
@@ -28,6 +28,5 @@ $app->get('/activate', function() use($app) {
 		$app->response->redirect($app->urlFor('home'));
 
 	}
-
-
+	
 })->name('activate');

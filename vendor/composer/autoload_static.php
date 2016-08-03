@@ -686,7 +686,11 @@ class ComposerStaticInitfc19cc53f3ac54987db04ab216e661a0
         'Violin\\Violin' => __DIR__ . '/..' . '/alexgarrett/violin/src/Violin.php',
         'ntlm_sasl_client_class' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
         'phpAuth\\Helpers\\Hash' => __DIR__ . '/../..' . '/app/phpAuth/Helpers/Hash.php',
+        'phpAuth\\Mail\\Mailer' => __DIR__ . '/../..' . '/app/phpAuth/Mail/Mailer.php',
+        'phpAuth\\Mail\\Message' => __DIR__ . '/../..' . '/app/phpAuth/Mail/Message.php',
+        'phpAuth\\Middleware\\BeforeMiddleware' => __DIR__ . '/../..' . '/app/phpAuth/Middleware/BeforeMiddleware.php',
         'phpAuth\\User\\User' => __DIR__ . '/../..' . '/app/phpAuth/User/User.php',
+        'phpAuth\\Validation\\Validator' => __DIR__ . '/../..' . '/app/phpAuth/Validation/Validator.php',
         'phpmailerException' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
     );
 

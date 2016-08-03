@@ -565,6 +565,10 @@ return array(
     'Violin\\Violin' => $vendorDir . '/alexgarrett/violin/src/Violin.php',
     'ntlm_sasl_client_class' => $vendorDir . '/phpmailer/phpmailer/extras/ntlm_sasl_client.php',
     'phpAuth\\Helpers\\Hash' => $baseDir . '/app/phpAuth/Helpers/Hash.php',
+    'phpAuth\\Mail\\Mailer' => $baseDir . '/app/phpAuth/Mail/Mailer.php',
+    'phpAuth\\Mail\\Message' => $baseDir . '/app/phpAuth/Mail/Message.php',
+    'phpAuth\\Middleware\\BeforeMiddleware' => $baseDir . '/app/phpAuth/Middleware/BeforeMiddleware.php',
     'phpAuth\\User\\User' => $baseDir . '/app/phpAuth/User/User.php',
+    'phpAuth\\Validation\\Validator' => $baseDir . '/app/phpAuth/Validation/Validator.php',
     'phpmailerException' => $vendorDir . '/phpmailer/phpmailer/class.phpmailer.php',
 );
