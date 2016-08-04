@@ -41,7 +41,7 @@ $app->post('/register', $guest(), function() use($app) {
 			$message->subject('Thanks for registering.');
 		});
 
-		$app->flash('global', 'You have been registered.');
+		$app->flash('global', 'You have been registered. Please activate your account through an email that was sent to you.');
 		$app->response->redirect($app->urlFor('home'));
 	}
 

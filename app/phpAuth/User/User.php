@@ -12,6 +12,7 @@ class User extends Eloquent
 		'password',
 		'active',
 		'active_hash',
+		'recover_hash',
 		'remember_identifier',
 		'remember_token',
 		'email'
@@ -37,5 +38,18 @@ class User extends Eloquent
 			'active' => true,
 			'active_hash' => null
 		]);
+	}
+
+	public function updateRememberCredentials($identifier, $token)
+	{
+		$this->update([
+			'remember_identifier' => $identifier,
+			'remember_token' => $token
+		]);
+	}
+
+	public function removeRememberCredentials()
+	{
+		$this->updateRememberCredentials(null, null);
 	}
 }
