@@ -27,8 +27,8 @@ return [
 		'smtp_auth' => true,
 		'smtp_secure' => 'tls',
 		'host' => 'smtp.gmail.com',
-		'username' => 'stevektseng7@gmail.com',
-		'password' => 'sKtMeCH1117',
+		'username' => '',
+		'password' => '',
 		'port' => 587,
 		'html' => true
 	],
